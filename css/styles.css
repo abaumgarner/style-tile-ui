@@ -61,6 +61,20 @@ figure p {
  |_|  |_|\__, | |____/ \__|\__, |_|\___||___/
          |___/             |___/
 */
+section.grid_12,
+section.grid_6,
+section.grid_5 {
+    margin-top: 36px;
+}
+
+section#form {
+    margin-top: 150px;
+}
+
+section#card {
+    margin-top: -500px;
+}
+
 /* 
    ____      _
   / ___|___ | | ___  _ __ ___
@@ -92,7 +106,7 @@ figure p {
 */
 
 .pattern-1 {
-
+    background: url("../img/satinweave.png");
 }
 .pattern-2 {
 
