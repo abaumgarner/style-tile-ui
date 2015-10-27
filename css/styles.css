@@ -84,20 +84,24 @@ section#card {
  */
 
 .color-1 {
-	background: red;
+	background: #f44336;
 }
-
 .color-2 {
-	background: green;
+	background: #ffe0b2;
 }
-
 .color-3 {
-	background: yellow;
+	background: #00c853;
+}
+.color-4 {
+    background: #000000;
 }
 .color-1,
 .color-2,
-.color-3 {
+.color-3,
+.color-4 {
     border: none;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -176,12 +180,21 @@ input[type="checkbox"] {
 button {
     border: none;
     border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
+button:hover {
+    opacity: 0.75;
+}
+/* Off Button */
 button:nth-child(2) {
-    background: rgba(106, 106, 115, .5);
+    background: rgba(244, 67, 54, .5);
 }
-button:nth-child(1) {
-    background: rgba(106, 106, 115, .15);
+/* On Button */
+button:nth-child(3) {
+    background: rgba(244, 67, 54, .3);
 }
 
 /*
@@ -197,7 +210,9 @@ figure {
     border-radius: 4px;
     padding: 5px;
 }
-
+figcaption {
+    font-family: 'Noto Sans', sans-serif;
+}
 /*
   _____                                        _
  |_   _|   _ _ __   ___   __ _ _ __ __ _ _ __ | |__  _   _
