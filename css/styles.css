@@ -164,12 +164,21 @@ section#card {
 
 */
 input[type="text"] {
-	border: dotted;
+	border: groove 2px;
 }
 input[type="checkbox"] {
 
 }
-
+button {
+    border: none;
+    border-radius: 5px;
+}
+button:nth-child(2) {
+    background: rgba(106, 106, 115, .5);
+}
+button:nth-child(1) {
+    background: rgba(106, 106, 115, .15);
+}
 
 /*
    ____              _
@@ -180,7 +189,9 @@ input[type="checkbox"] {
 
 */
 figure {
-	
+	border: solid 1px black;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 /*
