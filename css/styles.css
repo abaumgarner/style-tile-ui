@@ -203,6 +203,9 @@ figure {
        |___/|_|          |___/          |_|          |___/
 */
 
-section:nth-child(6) {
-    
+section:nth-child(6) a{
+    text-decoration: none;
+}
+section:nth-child(6) a:hover {
+    cursor: pointer;
 }
