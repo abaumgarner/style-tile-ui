@@ -117,10 +117,19 @@ section#card {
 .pattern-1 {
     background: url("../img/satinweave.png");
 }
+.pattern-1-bg {
+    background: url("../img/satinweave.png");
+}
 .pattern-2 {
     background: url("../img/brushed_alu.png");
 }
+.pattern-2-bg {
+    background: url("../img/brushed_alu.png");
+}
 .pattern-3 {
+    background: url("../img/brushed_alu_dark.png");
+}
+.pattern-3-bg {
     background: url("../img/brushed_alu_dark.png");
 }
 
