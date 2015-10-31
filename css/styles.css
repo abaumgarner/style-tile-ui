@@ -3,10 +3,37 @@
 /***************/
 
 /* Color Palette */
+div[class*="color-"] {
+    border: none;
+}
 
+.color-1 {
+    background: rgb(0, 159, 81);
+
+}
+.color-2 {
+    background: rgb(243, 214, 68);
+}
+.color-3 {
+    background: rgb(241, 224, 169);
+}
+.color-4 {
+    background: rgb(216, 167, 81);
+}
+.color-5 {
+    background: rgb(215, 100, 54);
+}
 
 /* Textures or Patterns*/
-
+.pattern-1 {
+    background: url('../img/satinweave.png');
+}
+.pattern-2 {
+    background: url('../img/brushed_alu.png');
+}
+.pattern-3 {
+    background: url('../img/brushed_alu_dark.png');
+}
 
 /* Imagery */
 
