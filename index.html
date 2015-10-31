@@ -2,143 +2,234 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Style Tile</title>
+  <title>Style Tile w/ User Interface</title>
 	
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/grid.css">
-
-	<link rel="stylesheet" href="css/styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/grid.css">	
+  <link rel="stylesheet" href="css/tile-template.css"> 			
+  <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
 <body>
 	
-	<div class="container">
+
+<!-- Project Info -->
+	<section class="grid-container">
+		<h1>Project</h1>
+		<p>Version 0</p>
+	</section>
+
+<!-- 
+	Color Palette 
+	* Add more colors to palette using: 
+-->
+	<section class="grid-container">
+		<h2>Color Palette</h2>
+		<div class="color-1"></div>
+		<div class="color-2"></div>
+		<div class="color-3"></div>
+		<div class="color-4"></div>
+		<div class="color-5"></div>		
+	</section>
+
+<!-- 
+	Textues & Patterns 
+	* Add more textures or patterns
+-->
+	<section class="grid-container">
+		<h2>Textures/Patterns</h2>
+		<div class="pattern-1"></div>
+		<div class="pattern-2"></div>
+		<div class="pattern-3"></div>
+		<div class="pattern-4"></div>
+		<div class="pattern-5"></div>
+	</section>
+
+<!-- 
+	Imagery
+-->
+	<section class="grid-container">
+		<h2>Imagery</h2>
+		<div class="imagery-1">
+			<img src="http://placehold.it/300x200">
+		</div>
+		<div class="imagery-2">
+			<img src="http://placehold.it/300x200">
+		</div>
+		<div class="imagery-3">
+			<img src="http://placehold.it/300x200">
+		</div>
+		<div class="imagery-4">
+			<img src="http://placehold.it/300x200">
+		</div>
+		<div class="imagery-5">
+			<img src="http://placehold.it/300x200">
+		</div>
+	</section>
+
+<!-- 
+	Icons
+-->
+	<section class="grid-container">
+		<h2>Icons</h2>
+		<div class="icon-1">
+			<img src="img/icon-sample.svg">
+		</div>
+		<div class="icon-2">
+			<img src="img/icon-sample.svg">
+		</div>
+		<div class="icon-3">
+			<img src="img/icon-sample.svg">
+		</div>
+		<div class="icon-4">
+			<img src="img/icon-sample.svg">
+		</div>
+		<div class="icon-5">
+			<img src="img/icon-sample.svg">
+		</div>
+	</section>	
+
+<!-- Navigation -->
+<section class="grid-container">
+	
+<!-- Primary Navigation -->	
+	<section class="grid-6">
+		<h2>Primary Navigation</h2>
+		<nav role='navigation'>
+		  <ul>
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">About</a></li>
+		    <li><a href="#">Clients</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		  </ul>
+		</nav>
 		
+		<p><a href="#">Text Link</a></p>
+		<p><button>Link Button</button></p>
 
-		<sectionl class="grid_12">
-			<p class="label">Version 0</p>			
-			<h1>Project</h1>
-		</sectionl>
+	</section>
 
-		<section class="grid_5">
-			<p class="label">Color Palette</p>	
-			
-			<div class="color-1"></div>
-			<div class="color-2"></div>
-			<div class="color-3"></div>
-			<div class="color-4"></div>
-
-			<div class="clear"></div>
-		</section>
-
-		<section class="grid_6">
-			<div class="pattern-1"></div>
-			<p class="label">Textures/Patterns</p>						<div class="pattern-2"></div>
-			<div class="pattern-3"></div>
-
-
-			<div class="clear"></div>
-		</section>
-
-		<section class="grid_12">
-			<div class="imagery-1"></div>
-			<p class="label">Imagagery</p>						<div class="imagery-2"></div>
-			<div class="imagery-3"></div>
-
-
-			<div class="clear"></div>
-		</section>
-
-		<section class="grid_5">
-			<div class="icon-1"></div>
-			<div class="icon-2"></div>
-			<div class="icon-3"></div>
-			<p class="label">Icons</p>
-
-			<div class="clear"></div>
-		</section>	
+<!-- Secondary Navigation -->	
+	<section class="grid-6">
+		<h2>Secondary Navigation</h2>
+		<nav role='navigation'>
+		  <ul>
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">About</a></li>
+		    <li><a href="#">Clients</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		  </ul>
+		</nav>
 		
+		<p><a href="#">Text Link</a></p>
+		<p><button>Link Button</button></p>
 
-		<section class="grid_5">
-			
-			<p class="label">Typography</p>
+	</section>
+
+
+</section>
+
+<!-- 
+	UI: Typography, Forms, Tables, & Cards
+-->
+	<section class="grid-container">
+		
+		<!--  Typography Option 1 -->
+		<section class="grid-3">				
+
+			<h2>Typography A</h2>
 
 			<h2>Primary Header</h2>
-			<p>Roboto, sans-serif, 700 weight</p>
+			<p>Font name, variant, color, etc</h2>
 			
-			<br><br>
 
 			<h3>Secondary Header</h3>
-			<p>Roboto, sans-serif, 500 weight</p>
-
-			<br><br>
-
-			<p>Lorp ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dolor id <a href="#">corporis alias ea</a> rerum dicta atque et neque explicabo vero sed repellat soluta a recusandae nesciunt <a href="#">tenetur voluptates</a>, possimus. ipsum. </p>
+			<p>Font name, variant, color, etc</h2>
 			
-
-			<p>Lorp <strong>ipsum dolor sit amet</strong>, consectetur adipisicing elit. Quidp tppore hic dignissimos fugit architecto, magnam <p>enim voluptatum omnis</p>. Animi facere totam ipsa dicta amet quia obcaecati nobis deleniti illum ab.</p>
-
-			<p>Noto Sans, sans-serif, 500 weight</p>
+			<h3>Paragraphs</h3>
+			<p>Font name, variant, colo, etc</h2>
+				
+			<p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut <a href="#">labore et</a>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			</p>
 
 		</section>
 
-		<section id="form" class="grid_12">
+		<!--  Typography Option 2 -->
+		<section class="grid-3">				
+
+			<h2>Typography B</h2>
+
+			<h2>Primary Header</h2>
+			<p>Font name, variant, color, etc</h2>
 			
-			<input type="text" />
-			<button>Button Off</button>
-			<button>Button On</button>
-			<input type="checkbox" />
 
-			<p class="label">Form</p>
+			<h3>Secondary Header</h3>
+			<p>Font name, variant, color, etc</h2>
+			
+			<h3>Paragraphs</h3>
+			<p>Font name, variant, colo, etc</h2>
+				
+			<p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut <a href="#">labore et</a>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			</p>
+			
 
-			<div class="clear"></div>
 		</section>
 
-		<section id="card" class="grid_5">
+		<!-- Form & Tables -->
+		<section class="grid-3">
 			
-			<figure>
-  				<img src="http://placehold.it/200x300" alt="placeholder" />
-  				<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
-			</figure>
+			<h2>Form</h2>
+			<label for="sample">Field Label</label>
+			<input type="text" name="sample" placeholder="sample" />
+			<button class="button-a">Button A</button>
+			<button class="button-a">Button B</button>
 			
-
+			<h2>Table</h2>
 			<table>
-				<thead>
-					<tr>
-						<th>Col A</th>
-						<th>Col B</th>
-						<th>Col C</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Data 3									<td>Data 1</td>
-						<td>Data 2</td>
-</td>
-					</tr>
-					<tr>
-						<td>Data 3									<td>Data 1</td>
-						<td>Data 2</td>
-</td>
-					</tr>
-				</tbody>
+				<tr>
+					<td>Col A</td>
+					<td>Col B</td>
+					<td>Col C</td>
+				</tr>				
+				<tr>
+					<td>Data A1</td>
+					<td>Data A2</td>
+					<td>Data A3</td>
+				</tr>
+				<tr>
+					<td>Data B1</td>
+					<td>Data B2</td>
+					<td>Data B3</td>
+				</tr>
+				<tr>
+					<td>Data C1</td>
+					<td>Data C2</td>
+					<td>Data C3</td>
+				</tr>								
 			</table>
 
-
-			<p class="label">Cards</p>
-
-			<div class="clear"></div>
 		</section>
 
+		<!-- Cards -->
+		<section class="grid-3">
+			<h2>Cards</h2>	
 
-		<!-- Clearfix -->
-		<div class="clear"></div>
+			<figure>
+				<h2>First Last</h2>
+				<img src="http://placehold.it/200x200" alt="placeholder" />
+				<h3>Major</h3>
+				<h3>$0.00</h3>
+				<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</figcaption>
+			</figure>
+			
+		</section>
 
-	</div>
-
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src="js/scripts.js"></script>
+	<!-- end UI Elements -->
+	</section>
+	
+  
 </body>
 </html>
