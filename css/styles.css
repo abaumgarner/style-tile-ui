@@ -42,7 +42,30 @@ div[class*="color-"] {
 
 
 /* Typography */
-
+.grid-3:first-child h2{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+}
+.grid-3:first-child h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.grid-3:first-child p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.grid-3:nth-child(2) h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.grid-3:nth-child(2) h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+}
+.grid-3:nth-child(2) p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
 
 /* Forms */
 
@@ -51,3 +74,10 @@ div[class*="color-"] {
 
 
 /* Cards */
+figure {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5%;
+}
+figure h2 {
+    font-weight: 700;
+}
