@@ -31,7 +31,7 @@ div[class*="color-"] {
 .pattern-1:hover {
     cursor: pointer;
 }
-section:nth-child(3):hover:after {
+section.grid-container:nth-child(3):hover:after {
     content: 'Click to toggle on/off';
     padding: 4px 8px;
     color: #333;
