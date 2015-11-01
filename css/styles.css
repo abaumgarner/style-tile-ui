@@ -28,10 +28,19 @@ div[class*="color-"] {
 .pattern-1 {
     background: url('../img/satinweave.png');
 }
+.pat-1 {
+    background: url('../img/satinweave.png');
+}
 .pattern-2 {
     background: url('../img/brushed_alu.png');
 }
+.pat-2 {
+    background: url('../img/brushed_alu.png');
+}
 .pattern-3 {
+    background: url('../img/brushed_alu_dark.png');
+}
+.pat-3 {
     background: url('../img/brushed_alu_dark.png');
 }
 
