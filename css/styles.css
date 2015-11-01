@@ -94,12 +94,21 @@ button:hover {
 figure {
     font-family: 'Roboto', sans-serif;
     border-radius: 5%;
+    border: 1.4px solid #000;
 }
 figure h2 {
     font-weight: 700;
 }
 figure h3 {
     font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+figure h2 {
+    margin-top: 0px;
+}
+figure h3:nth-child(4) {
+    margin-bottom: 12px;
 }
 figure figcaption {
     font-weight: 400;
