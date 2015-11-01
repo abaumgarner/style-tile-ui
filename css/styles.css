@@ -135,6 +135,8 @@ table {
 table tr:first-child {
     font-weight: 700;
     text-align: center;
+    background:#666;
+    color:#fff;
 }
 tbody tr {
     background: #fefdfb;
@@ -148,7 +150,13 @@ tbody tr+tr:nth-child(even) {
 tbody tr+tr:hover {
     background: rgba(255,255,0,.5);
 }
-
+td {
+    border: none;
+    border-right: 1px solid black;
+}
+td:last-child {
+    border: none;
+}
 /* Cards */
 figure {
     font-family: 'Roboto', sans-serif;
