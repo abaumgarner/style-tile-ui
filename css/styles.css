@@ -129,13 +129,32 @@ section.grid-3 button:hover {
 }
 
 /* Tables */
-
+table {
+    font-family: 'Roboto', sans-serif;
+}
+table tr:first-child {
+    font-weight: 700;
+    text-align: center;
+}
+tbody tr {
+    background: #fefdfb;
+}
+tbody tr+tr {
+    font-weight: 400;
+}
+tbody tr+tr:nth-child(even) {
+    background: #eee;
+}
+tbody tr+tr:hover {
+    background: rgba(255,255,0,.5);
+}
 
 /* Cards */
 figure {
     font-family: 'Roboto', sans-serif;
     border-radius: 5%;
     border: 1.4px solid #000;
+    background: #fefdfb;
 }
 figure h2 {
     font-weight: 700;
