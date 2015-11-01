@@ -68,7 +68,24 @@ div[class*="color-"] {
 }
 
 /* Forms */
-
+input {
+    border: 1px groove;
+}
+input:hover {
+    background: rgba(241, 224, 169, .3);
+}
+button {
+    border: none;
+    border-radius: 5%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background: rgba(241, 224, 169, .8);
+}
+button:hover {
+    opacity: .7;
+}
 
 /* Tables */
 
@@ -80,4 +97,10 @@ figure {
 }
 figure h2 {
     font-weight: 700;
+}
+figure h3 {
+    font-weight: 500;
+}
+figure figcaption {
+    font-weight: 400;
 }
