@@ -82,6 +82,30 @@ section.grid-container:nth-child(3):hover:after {
 /* Icons */
 
 
+/* Navigation */
+/* Primary */
+section.grid-6:first-child {
+    font-family: 'Roboto', sans-serif;
+}
+section.grid-6:first-child a {
+    text-decoration: none;
+}
+section.grid-6:first-child li {
+    display: inline;
+    padding-right: 10px;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+section.grid-6:first-child ul {
+    text-align: right;
+}
+
+/* Secondary */
+section.grid-6:nth-child(2) {
+    font-family: 'Lato', sans-serif;
+}
+
+
 /* Typography */
 .grid-3:first-child h2{
      font-family: 'Roboto', sans-serif;
