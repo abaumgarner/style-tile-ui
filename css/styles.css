@@ -87,8 +87,9 @@ section.grid-container:nth-child(3):hover:after {
 section.grid-6:first-child {
     font-family: 'Roboto', sans-serif;
 }
-section.grid-6:first-child a {
+section.grid-6:first-child li a {
     text-decoration: none;
+    color: rgb(241, 224, 169);
 }
 section.grid-6:first-child li {
     display: inline;
@@ -98,6 +99,9 @@ section.grid-6:first-child li {
 }
 section.grid-6:first-child ul {
     text-align: right;
+    background: rgb(215, 100, 54);
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 /* Secondary */
