@@ -205,3 +205,6 @@ figure h3:nth-child(4) {
 figure figcaption {
     font-weight: 400;
 }
+img[alt="placeholder"] {
+
+}

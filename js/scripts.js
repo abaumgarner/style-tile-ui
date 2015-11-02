@@ -39,3 +39,23 @@ $('.pattern-3').click(function() {
         ctr3--;
     }
 });
+
+var imgLink = 'img/profileHolder/';
+var ara = ['vader-profile.jpg', 'trooper-profile.jpg', 'fet-profile.jpg'];
+var randomImage = ara[Math.floor(Math.random()*ara.length)];
+
+$('img[alt="placeholder"]').attr('src', imgLink + randomImage);
+
+if(randomImage === 'vader-profile.jpg'){
+    $('figure h2').text('Darth Vader');
+    $('figure h3:nth-child(3)').text('Psychology');
+    $('figure h3:nth-child(4)').text('$-100');
+}else if(randomImage === 'trooper-profile.jpg'){
+    $('figure h2').text('TK421');
+    $('figure h3:nth-child(3)').text('Electrical Engineering');
+    $('figure h3:nth-child(4)').text('$66');
+}else if(randomImage === 'fet-profile.jpg'){
+    $('figure h2').text('Boba Fett');
+    $('figure h3:nth-child(3)').text('Outdoor Recreation');
+    $('figure h3:nth-child(4)').text('$4000');
+}
