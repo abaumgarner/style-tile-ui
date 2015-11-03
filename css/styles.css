@@ -77,7 +77,7 @@ section.grid-container:nth-child(3):hover:after {
 }
 .pattern-4,
 .pattern-5{
-    border: none;
+    display: none;
 }
 
 /* Imagery */
