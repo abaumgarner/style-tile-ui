@@ -277,8 +277,8 @@ td:last-child {
 figure {
     font-family: 'Roboto', sans-serif;
     border-radius: 5%;
-    border: 1.4px solid #000;
-    background: #fefdfb;
+    border: none;
+    background: rgb(241, 224, 169);
 }
 figure h2 {
     font-weight: 700;
