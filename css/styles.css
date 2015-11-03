@@ -97,6 +97,11 @@ section.grid-6:first-child li a {
     text-decoration: none;
     color: rgb(241, 224, 169);
 }
+section.grid-6:first-child li a:hover {
+    text-decoration: none;
+    color: #ffb7b7;
+}
+
 section.grid-6:first-child li {
     display: inline;
     padding-right: 10px;
@@ -112,6 +117,9 @@ section.grid-6:first-child ul {
 section.grid-6:first-child p a {
     text-decoration: none;
     color: rgb(215, 100, 54);
+}
+section.grid-6:first-child p a:hover {
+    background: #ffb7b7;
 }
 section.grid-6:first-child button {
     border: none;
@@ -132,6 +140,9 @@ section.grid-6:nth-child(2) {
 section.grid-6:nth-child(2) li a {
     text-decoration: none;
     color: black;
+}
+section.grid-6:nth-child(2) li a:hover {
+    text-decoration: underline;
 }
 section.grid-6:nth-child(2) li {
     display: inline;
