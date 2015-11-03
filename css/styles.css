@@ -75,6 +75,10 @@ section.grid-container:nth-child(3):hover:after {
 .pat-3 {
     background: url('../img/brushed_alu_dark.png');
 }
+.pattern-4,
+.pattern-5{
+    border: none;
+}
 
 /* Imagery */
 
