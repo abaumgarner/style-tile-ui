@@ -239,6 +239,10 @@ section.grid-3 button {
 section.grid-3 button:hover {
     opacity: .7;
 }
+section.grid-3 label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+}
 
 /* Tables */
 table {
@@ -292,7 +296,4 @@ figure h3:nth-child(4) {
 }
 figure figcaption {
     font-weight: 400;
-}
-img[alt="placeholder"] {
-
 }
