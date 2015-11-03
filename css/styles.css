@@ -81,7 +81,9 @@ section.grid-container:nth-child(3):hover:after {
 }
 
 /* Imagery */
-
+.imagery-5 {
+    display: none;
+}
 
 /* Icons */
 .icon-5 {
