@@ -176,6 +176,7 @@ section.grid-6:nth-child(2) button:hover {
 }
 
 /* Typography */
+/* First */
 .grid-3:first-child h2{
      font-family: 'Roboto', sans-serif;
      font-weight: 700;
@@ -188,6 +189,15 @@ section.grid-6:nth-child(2) button:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.grid-3:first-child a {
+    text-decoration: none;
+    color: rgb(215, 100, 54);
+}
+.grid-3:first-child a:hover {
+    background: #ffb7b7;
+}
+
+/* Second */
 .grid-3:nth-child(2) h2{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -199,6 +209,15 @@ section.grid-6:nth-child(2) button:hover {
 .grid-3:nth-child(2) p{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+}
+.grid-3:nth-child(2) p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+}
+.grid-3:nth-child(2) p a:hover {
+    text-decoration: underline;
 }
 
 /* Forms */
