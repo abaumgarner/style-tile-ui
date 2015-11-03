@@ -150,6 +150,19 @@ section.grid-6:nth-child(2) p a {
     font-weight: 400;
     font-style: italic;
 }
+section.grid-6:nth-child(2) p a:hover {
+    text-decoration: underline;
+}
+section.grid-6:nth-child(2) button {
+    border: none;
+    border-radius: 5%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+section.grid-6:nth-child(2) button:hover {
+    opacity: .7;
+}
 
 /* Typography */
 .grid-3:first-child h2{
