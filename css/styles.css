@@ -84,7 +84,9 @@ section.grid-container:nth-child(3):hover:after {
 
 
 /* Icons */
-
+.icon-5 {
+    display: none;
+}
 
 /* Navigation */
 /* Primary */
@@ -107,6 +109,21 @@ section.grid-6:first-child ul {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+section.grid-6:first-child p a {
+    text-decoration: none;
+    color: rgb(215, 100, 54);
+}
+section.grid-6:first-child button {
+    border: none;
+    border-radius: 5%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    background: rgba(241, 224, 169, .8);
+}
+section.grid-6:first-child button:hover {
+    opacity: .7;
+}
 
 /* Secondary */
 section.grid-6:nth-child(2) {
@@ -126,6 +143,12 @@ section.grid-6:nth-child(2) ul {
     background: rgb(241, 224, 169);
     padding-top: 2px;
     padding-bottom: 2px;
+}
+section.grid-6:nth-child(2) p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Typography */
